@@ -156,6 +156,44 @@
             line-height: 1.6;
         }
 
+        .acronym-section {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        .acronym-section:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .acronym-section h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--light);
+            text-align: center;
+        }
+
+        .acronym-text {
+            font-size: 1.1rem;
+            color: var(--gray);
+            line-height: 1.8;
+            text-align: center;
+            font-family: 'JetBrains Mono', monospace;
+            letter-spacing: 0.5px;
+        }
+
+        .acronym-text strong {
+            color: var(--primary);
+            font-weight: 700;
+        }
+
         .cta-buttons {
             display: flex;
             gap: 1rem;
@@ -576,6 +614,10 @@
             <div class="hero-content">
                 <h1>Securing Tomorrow's Digital Frontier</h1>
                 <p>Leading cybersecurity solutions and government resale services. Protecting critical infrastructure with cutting-edge technology and strategic partnerships.</p>
+                <div class="acronym-section">
+                    <h3>What does bblxddyhvwiv stand for?</h3>
+                    <p class="acronym-text"><strong>B</strong>rave <strong>b</strong>usinesses <strong>l</strong>everage <strong>X</strong>-ray <strong>d</strong>etection, <strong>d</strong>efending <strong>y</strong>our <strong>h</strong>omeland's <strong>v</strong>ital <strong>w</strong>eb <strong>i</strong>nfrastructure <strong>v</strong>igilantly.</p>
+                </div>
                 <div class="cta-buttons">
                     <a href="#services" class="btn btn-primary">Explore Services</a>
                     <a href="#contact" class="btn btn-secondary">Get Started</a>
